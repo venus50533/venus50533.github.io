@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        /* 底色區域 */
+        .wrap {
+        background-color: #222;
+        width: 100%;
+        }
+        /*內容區域*/
+        .footer {
+           width: 1000px;
+           margin: 0 auto;
+        }
+        .logo{
+            width: 73px;
+            position: relative;
+            top: 30px;
+
+        }
+        .container{
+            margin: 40px 0px;
+            width: 100%;
+            display: flex;
+            color: #fff;
+        }
+        .service{
+            display: flex;
+            width: 50%;
+        }
+        .service .list{
+            margin: 15px 30px 0  0;
+        }
+        .service .title{
+            margin: 0px 20px 20px 0px;
+            font-weight:bold;/*粗體*/ 
+        }
+        .service li{
+            list-style-type: none; /* 移除項目符號 */
+            line-height: 1.6;
+        }
+        .service a{
+            text-decoration: none;
+            color: #bbb;
+            font-size: small;
+            margin-top: 10px;
+        }
+        .border{
+            border-left: #fff solid 1px;
+            height: 240px;
+            margin-right: 30px;
+            justify-content: center; /* 水平置中 */
+            align-items: center; /* 垂直置中 */
+            position: relative;       
+        }
+        .store{
+            height: 33px;
+            display: flex;
+            align-content: center;
+            gap: 20px;
+            margin: 15px 0 40px;
+            padding: auto 0;
+        }
+        .media{
+            display:flex;
+            gap: 10px;
+        }
+        .media a{
+            color: #fff;
+        }
+        .media img{
+            width: 32px;
+            height: 32px;
+        }
+        .connection{
+            display: flex;
+            font-size: 12px;
+            line-height: 2;  
+            margin-top: 30px;
+            gap: 35px;
+        }
+        .copyright {
+            width:1000px;
+            align-content: center;
+            font-size: 12px;
+            color: #bbb;
+            display: flex;
+            padding-bottom: 30px;
+            gap: 20px;          
+        }
+        .copyright .copyrightwebsite a{
+            text-decoration: none;
+            color: #bbb;
+            margin-right: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 底色區塊 -->
+    <div class="wrap"> 
+        <footer class="footer">
+            <div class="logo">
+                <img src="./img/logo-white.png" alt="商周">
+            </div>
+    <div class="container">
+        <!--服務項目區  -->
+        <div class="service">
+            <div class="list">
+                <div class="title">內容分類</div>
+                <ul>
+                    <li><a href="https://www.businessweekly.com.tw/channel/focus/0000000312">焦點</a></li>
+                    <li><a href="https://www.businessweekly.com.tw/channel/international/0000000316">國際</a></li>
+                    <li><a href="https://www.businessweekly.com.tw/channel/business/0000000319">財經</a></li>
+                    <li><a href="https://www.businessweekly.com.tw/channel/management/0000000326">管理</a></li>
+                    <li><a href="https://www.businessweekly.com.tw/channel/careers/0000000331">職場</a></li>
+                    <li><a href="https://www.businessweekly.com.tw/channel/style/0000000337">共好ESG</a></li>
+                </ul>
+            </div>
+            <div class="list">
+                <div class="title">特色頻道</div>
+                <ul>
+                    <li><a href="https://www.businessweekly.com.tw/opinion">名家專欄</a></li>
+                    <li><a href="https://www.businessweekly.com.tw/Event/featurelist.aspx">特別企劃</a></li>
+                    <li><a href="https://www.businessweekly.com.tw/multimedia/">影音</a></li>
+                    <li><a href="https://wealth.businessweekly.com.tw/">商周財富網</a></li>
+                    <li><a href="https://health.businessweekly.com.tw/">良醫健康網</a></li>
+                </ul>
+            </div>
+            <div class="list">
+                <div class="title">商周線上讀</div>
+                <ul>
+                    <li><a href="https://www.businessweekly.com.tw/Archive/Category/Index?Type1Url=2">商周封面</a></li>
+                    <li><a href="https://www.businessweekly.com.tw/Archive/Category/Index?Type1Url=4">兩岸國際</a></li>
+                    <li><a href="https://www.businessweekly.com.tw/Archive/Category/Index?Type1Url=8">人物報導</a></li>
+                    <li><a href="https://www.businessweekly.com.tw/Archive/Category/Index?Type1Url=3">職場管理</a></li>
+                    <li><a href="https://bw.businessweekly.com.tw/event/payment-flash/?prodId=PROD000015814&utm_source=BWFooter&Ftag=BWFooter">申請七天試閱</a></li>
+                </ul>
+            </div>
+            <div class="list">
+                <div class="title">多元服務</div>
+                <ul>
+                    <li><a href="https://www.businessweekly.com.tw/bookshop/magazine/SubscribeMain?utm_source=bwcom_footer1&utm_medium=referral">訂閱商周</a></li>
+                    <li><a href="https://www.businessweekly.com.tw/Service?tab=">客服中心</a></li>
+                    <li><a href="https://www.businessweekly.com.tw/Service?type=QA&tab=%E7%B6%B2%E7%AB%99%E6%9C%83%E5%93%A1">常見問答</a></li>
+                    <li><a href="https://www.businessweekly.com.tw/EventList">活動總覽</a></li>
+                    <li><a href="https://www.businessweekly.com.tw/bookshop/?utm_source=bwcom_footer1&utm_medium=referral">商周Store</a></li>
+                    <li><a href="https://member.businessweekly.com.tw/">會員中心</a></li>
+                    <li><a href="https://www.businessweekly.com.tw/bwevent/2021/exchange/">序號兌換</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- 中間空格區 -->
+        <div class="border"></div>
+        <div class="icon">
+                    <!-- 廠商區 -->
+        <div class="store">
+            <a href="https://www.businessweekly.com.tw/"><img src="./img/logo-white.png" alt="商周" height="32"></a>
+            <a href="https://smart.businessweekly.com.tw/"><img src="./img/smart-white.png" alt="smart"></a>
+            <a href="https://health.businessweekly.com.tw/"><img src="./img/health-white.png" alt="良醫"></a>
+            <a href="https://alive.businessweekly.com.tw/"><img src="./img/alive-white.png" alt="alive"></a>
+            <a href="https://www.businessweekly.com.tw/bwc/"><img src="./img/bwe-white.png" alt="BWE商周編輯顧問"></a>
+        </div>
+        <div class="media">
+            <a href="https://www.facebook.com/bwnet.fans/?fref=ts"><img src="./img/footer-fb-normal.png" alt="商業周刊（商周.com）"></a>
+            <a href="https://page.line.me/bwnet?openQrModal=true"><img src="./img/footer-line-normal.png" alt="商業周刊"></a>
+            <a href="https://www.youtube.com/user/bwnet"><img src="./img/footer-yt-normal.png" alt="商業周刊"></a>
+            <a href="https://www.businessweekly.com.tw/RSS"><img src="./img/footer-web-normal.png" alt="商業周刊"></a>
+            <a href="https://www.instagram.com/bwnet.tw"><img src="./img/footer-instagram.svg" alt="商業周刊"></a>
+            <a href="https://t.me/businessweeklytw"><img src="./img/footer-telegram.svg" alt="商業周刊"></a>
+            <a href="https://www.businessweekly.com.tw/bwplus/landingpage/">下載App抽好禮</a>
+            <a href="https://www.businessweekly.com.tw/epaper">訂閱電子報</a>
+        </div>
+        <div class="connection">
+            <div class="client"><font style="color: #bbb;"><b>客戶服務專線</b></font><br>(02) 2510-8888</div>
+            <div class="fox"><font style="color: #bbb;"><b>傳真</b></font><br>(02) 2503-6989</div>
+            <div class="servetime"><font style="color: #bbb;"><b>服務時間</b></font><br>週一至週五09:00~18:00 (例假日除外)</div>  
+        </div>
+        </div>
+    </div>
+            <div class="copyright">
+                <div class="right">
+                    &copy;2019 Business Weekly a division of Cite Publishing Ltd All Righis Reserved.
+                </div>
+                <div class="copyrightwebsite">
+                    <a href="https://www.businessweekly.com.tw/AboutUs">關於商周集團</a>
+                    <a href="https://www.businessweekly.com.tw/Announcement">公告</a>
+                    <a href="https://www.businessweekly.com.tw/CopyRight">文章影音授權</a>
+                    <a href="https://www.businessweekly.com.tw/Service?type=AD">廣告合作</a>
+                    <a href="https://www.businessweekly.com.tw/Service?type=QA">常見問題</a>
+                    <a href="https://www.businessweekly.com.tw/Privacy">隱私權聲明</a>
+                    <a href="https://www.businessweekly.com.tw/SiteMap">網站導覽</a>   
+                </div>
+            </div>
+        </footer>
+    </div>
+
+</body>
+
+</html>
