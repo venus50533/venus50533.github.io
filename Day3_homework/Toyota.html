@@ -20,12 +20,12 @@
         .container-card_list {
             display: flex;
             flex-direction: column;
-            gap: 70px;
+            gap: 20px;
         }
 
         /* ----card------ */
         .card {
-            margin: auto;
+            margin:auto;
             width: 960px;
             position: relative;
         }
@@ -62,10 +62,10 @@
             background-color: #BB0404;
             width: 59px;
             height: 39px;
-            position: absolute;
+            position: absolute;  
             top: 205px;
             right: -10px;
-            z-index: 3;
+            z-index: 4;
         }
         .card:nth-child(2n) .yt_logo{
             width: 59px;
@@ -108,7 +108,7 @@
         .title_block-title {
             color: #F4F4F4;
             height: 136px;
-            background-color: #BB0404;
+            background-image: url(./img/red.png);
             display: flex;
             align-items: center;
         }
@@ -119,7 +119,7 @@
             font-size: 130px;
         }
         .card:nth-child(2n) .title_number{
-            margin-right: -25px;
+            margin-right: -35px;
         }
 
         .title_word {
@@ -134,15 +134,18 @@
         /* -----黑區title_block-text---------- */
         .title_block-text {
 
-            line-height: 2;
+            /* line-height: 1.3; */
             background-color: #000;
+            background-image: url(./img/_bc_black.png);
             color: #F4F4F4;
-            padding: 20px 20px 64px 20px;
+            font-weight: 600px;
+            letter-spacing: 2px;
+            padding: 20px 20px 54px 20px;
 
         }
 
         .text_slogan {
-            font-size: 28px;
+            font-size: 25px;
             font-weight: 600;
         }
 
@@ -155,25 +158,24 @@
             width: 681px;
             background-color: #EEEEEE;
             position: absolute;
-            padding: 20px;
             top: 531px;
             right: 239px;
+            padding: 20px;
             z-index: 2;
         }
         .card:nth-child(2n) .illustrate_block{
             left: 240px;
-            z-index: 2; */
+            z-index: 2; 
         }
 
         .illustrate_block-title {
             font-size: 20px;
-            font-weight: 600;
             color: #BE1414;
+            font-weight: bolder;
         }
 
         .illustrate_block-list {
             list-style: none;
-
         }
 
         .list_subtitle {
@@ -193,9 +195,10 @@
         }
 
         .list_text {
+            text-indent: -7px;
             padding-left: 20px;
+            font-weight: bolder;
             color: #767676;
-            font-weight: 700;
         }
 
 
@@ -231,14 +234,14 @@
                 <div class="illustrate_block">
                     <div class="illustrate_block-title">因為我們做了這些革新 ———————————————————————
                     </div>
-                    <div class="illustrate_block-list">
-                        <p class="list_subtitle">低重心設計</p>
-                        <p class="list_text"> 透過低重心設計，不僅呈現更低伏的外觀，更能減少車身側傾，保持高速行駛穩定性。</p>
-                        <p class="list_subtitle">車體剛性強化</p>
-                        <p class="list_text"> 車身結構採用超高強度鋼材，提高車輛穩定性，同時藉由雷射強化焊接技術，大幅增加焊點數量，提升車身抗扭剛性，強化駕馭穩定性及安全性。</p>
-                        <p class="list_subtitle">四輪獨立懸吊</p>
-                        <p class="list_text"> 搭載全新四輪獨立懸吊設定，透過懸吊的高承載強度，保持輪胎抓地力，同時兼顧轉向靈敏度與清晰路感回饋，提升駕馭樂趣。</p>
-                    </div>
+                    <dl class="illustrate_block-list">
+                        <dt class="list_subtitle">低重心設計</dt>
+                        <dd class="list_text"> 透過低重心設計，不僅呈現更低伏的外觀，更能減少車身側傾，保持高速行駛穩定性。</dd>
+                        <dt class="list_subtitle">車體剛性強化</dt>
+                        <dd class="list_text"> 車身結構採用超高強度鋼材，提高車輛穩定性，同時藉由雷射強化焊接技術，大幅增加焊點數量，提升車身抗扭剛性，強化駕馭穩定性及安全性。</dd>
+                        <dt class="list_subtitle">四輪獨立懸吊</dt>
+                        <dd class="list_text"> 搭載全新四輪獨立懸吊設定，透過懸吊的高承載強度，保持輪胎抓地力，同時兼顧轉向靈敏度與清晰路感回饋，提升駕馭樂趣。</dd>
+                    </dl>
                 </div>
             </div>
             <div class="card">
@@ -266,12 +269,12 @@
                     <div class="illustrate_block-title">因為我們做了這些革新 ———————————————————————
                     </div>
                     <div class="illustrate_block-list">
-                        <div class="illustrate_block-list">
-                            <p class="list_subtitle">主動安全</p>
-                            <p class="list_text"> 以先進的TSS系統，主動偵測路況，輔助駕駛判斷路況並維持行車安全。</p>
-                            <p class="list_subtitle">被動安全</p>
-                            <p class="list_text"> 堅固的高剛性車體，使用熱沖壓材料的高強度抗扭鋼板，強化座艙對意外事故的保護力。</p>
-                        </div>
+                        <dl class="illustrate_block-list">
+                            <dt class="list_subtitle">主動安全</dt>
+                            <dd class="list_text"> 以先進的TSS系統，主動偵測路況，輔助駕駛判斷路況並維持行車安全。</dd>
+                            <dt class="list_subtitle">被動安全</dt>
+                            <dd class="list_text"> 堅固的高剛性車體，使用熱沖壓材料的高強度抗扭鋼板，強化座艙對意外事故的保護力。</dd>
+                        </dl>
                     </div>
                 </div>
             </div>
@@ -299,14 +302,14 @@
                 <div class="illustrate_block">
                     <div class="illustrate_block-title">因為我們做了這些革新 ———————————————————————
                     </div>
-                    <div class="illustrate_block-list">
-                        <p class="list_subtitle">駕駛位置最佳化</p>
-                        <p class="list_text"> 針對駕駛位置進行徹底的修改，讓駕馭者可如同握手般自然且舒適地操控方向盤。</p>
-                        <p class="list_subtitle">駕馭視野佳</p>
-                        <p class="list_text"> 考量駕駛坐進車內的高度，透過前擋風玻璃位置的調整，達到盲區極小化，使駕駛視野更開闊，同步提升駕馭安全。</p>
-                        <p class="list_subtitle">更寧靜的車室</p>
-                        <p class="list_text"> 採用最新三層結構的隔音材料，與引擎、變速箱的零件改革，將座艙的震動抑制在最小限度，提供乘客舒適安靜的感受。</p>
-                    </div>
+                    <dl class="illustrate_block-list">
+                        <dt class="list_subtitle">駕駛位置最佳化</dt>
+                        <dd class="list_text"> 針對駕駛位置進行徹底的修改，讓駕馭者可如同握手般自然且舒適地操控方向盤。</dd>
+                        <dt class="list_subtitle">駕馭視野佳</dt>
+                        <dd class="list_text"> 考量駕駛坐進車內的高度，透過前擋風玻璃位置的調整，達到盲區極小化，使駕駛視野更開闊，同步提升駕馭安全。</dd>
+                        <dt class="list_subtitle">更寧靜的車室</dt>
+                        <dd class="list_text"> 採用最新三層結構的隔音材料，與引擎、變速箱的零件改革，將座艙的震動抑制在最小限度，提供乘客舒適安靜的感受。</dd>
+                    </dl>
                 </div>
             </div><div class="card">
                 <div class="rectangle"></div>
@@ -332,12 +335,12 @@
                 <div class="illustrate_block">
                     <div class="illustrate_block-title">因為我們做了這些革新 ———————————————————————
                     </div>
-                    <div class="illustrate_block-list">
-                        <p class="list_subtitle">優異油耗表現</p>
-                        <p class="list_text"> 以Corotla Sport為例，更強勁的高效引擎將熱效率提升至40%，達到世界級水準，屢屢穾破燃油效率新境界</p>
-                        <p class="list_subtitle">行李箱空間最適化</p>
-                        <p class="list_text"> 為例，透過將電池位置移到後座下方，讓行李箱擁有更大的空間。</p>
-                    </div>
+                    <dl class="illustrate_block-list">
+                        <dt class="list_subtitle">優異油耗表現</dt>
+                        <dd class="list_text"> 以Corotla Sport為例，更強勁的高效引擎將熱效率提升至40%，達到世界級水準，屢屢穾破燃油效率新境界</dd>
+                        <dt class="list_subtitle">行李箱空間最適化</dt>
+                        <dd class="list_text"> 為例，透過將電池位置移到後座下方，讓行李箱擁有更大的空間。</dd>
+                    </dl>
                 </div>
             </div><div class="card">
                 <div class="rectangle"></div>
@@ -363,12 +366,12 @@
                 <div class="illustrate_block">
                     <div class="illustrate_block-title">因為我們做了這些革新 ———————————————————————
                     </div>
-                    <div class="illustrate_block-list">
-                        <p class="list_subtitle">設計概念</p>
-                        <p class="list_text"> 低重心設計，不僅呈現更低伏的運動化外觀，更講究高品質內裝的一致性。</p>
-                        <p class="list_subtitle">環保概念</p>
-                        <p class="list_text"> 為了對環境保護盡一份心力，我們全面提升傳統引擎、變速箱與油電複合動力的動力效能。</p>
-                    </div>
+                    <dl class="illustrate_block-list">
+                        <dt class="list_subtitle">設計概念</dt>
+                        <dd class="list_text"> 低重心設計，不僅呈現更低伏的運動化外觀，更講究高品質內裝的一致性。</dd>
+                        <dt class="list_subtitle">環保概念</dt>
+                        <dd class="list_text"> 為了對環境保護盡一份心力，我們全面提升傳統引擎、變速箱與油電複合動力的動力效能。</dd>
+                    </dl>
                 </div>
             </div>
         </div>
