@@ -16,6 +16,7 @@
             font-family:'Malgun Gothic';
             font-weight: lighter;
         }
+    }
 
         .container-card_list {
             display: flex;
@@ -32,45 +33,46 @@
         .picture {
             width: 695px;
             height: 428px;
+            margin-left: 185px;
+            margin-right: 80px;
+            margin-top: -181px;
             position: relative;
-            left: 186px;
-            top: -155px;
             z-index: 2;
         }
         .card:nth-child(2n) .picture{
-            left: 10px;
-            z-index: 2;
+            margin-left: 7px;
+            margin-right: 80px; 
+            z-index: 1;
         }
-        .rectangle {
+        .card:nth-child(2n-1) .rectangle {
             width: 440px;
             height: 290px;
             background-color: #F4F4F4;
             position: relative;
             left: 520px;
-            top: 35px;
         }
         .card:nth-child(2n) .rectangle {
-            
+            display: flex;
             width: 440px;
             height: 290px;
             background-color: #F4F4F4;
-            left: 277px;
-            top: 58px;
+            position: absolute;
+            right: 163px;
         }
 
         .yt_logo {
             background-color: #BB0404;
             width: 59px;
             height: 39px;
-            position: absolute;
-            top: 205px;
-            right: -10px;
-            z-index: 3;
+            position: relative;
+            top: -250px;
+            right: -650px;
+            z-index: 2;
         }
         .card:nth-child(2n) .yt_logo{
             width: 59px;
             height: 39px;
-            left: -10px;
+            margin-left: -1356px;
             z-index: 3;
         }
 
@@ -81,54 +83,58 @@
             border-right: 10px solid #BB0404;
             border-bottom: 10px solid #BB0404;
             border-left: 20px solid #fff;
+            margin: 20px;
             position: relative;
-            left: 20px;
             top: 10px;
+
         }
 
         /* ---.title_block{}----- */
         .title_block {
             /* 960*33%=316.8 */
-            display: flex;
-            flex-direction: column;
             width: 356px;
             position: relative;
-            top: -719px;            
+            top: -572px;
             z-index: 2;
-            
             
         }
         .card:nth-child(2n) .title_block{
-            width: 356px;
-            left: 604px;
+            /* width: 356px; */
+            /* position: relative; */
+            /* top: -573px; */
+            right: 0px;
             z-index: 2;
         }
 
         /* ---紅區.title_block-title{----- */
         .title_block-title {
-            color: #F4F4F4;
-            height: 136px;
-            background-color: #BB0404;
             display: flex;
             align-items: center;
+            color: #F4F4F4;
+            background-color: #BB0404;
+            display: flex;
+            justify-content: center;
         }
 
         .title_number {
-            display: block;
+            /* height: 124px; */
+            width: 93px;
             transform: rotate(90deg);
-            font-size: 130px;
-        }
-        .card:nth-child(2n) .title_number{
-            margin-right: -25px;
+            font-size: 125px;
+            /* position: relative; */
+            /* margin: 10px; */
+            left: 22px;
+            bottom: 15px;
+           }
+        .card:nth-child(2n) .title_word{
+
         }
 
         .title_word {
+            position: relative;
+            left: -12px;
             display: block;
-            font-size: 48px;
-            
-        }
-        .card:nth-child(2n) .title_word{
-            margin:0 22px;
+            font-size: 55px;
         }
 
         /* -----黑區title_block-text---------- */
@@ -156,13 +162,15 @@
             background-color: #EEEEEE;
             position: absolute;
             padding: 20px;
-            top: 531px;
+            top: 538px;
             right: 239px;
             z-index: 2;
         }
         .card:nth-child(2n) .illustrate_block{
-            left: 240px;
-            z-index: 2; */
+            position: absolute;
+            top: 574px;
+            left: 239px;
+            z-index: 2;
         }
 
         .illustrate_block-title {
@@ -246,9 +254,7 @@
                 <div class="picture">
                     <a href="https://www.toyota.com.tw/tech_TNGA.aspx#/advantages">
                         <span class="img"><img src="./img/advantage-2-video-button-bg.png" alt=""></span>
-                        <div class="yt_logo">
-                            <div class="triangle"></div>
-                        </div>
+                        <div class="yt_logo"><img src="./img/video-icon.png" alt=""></div>
                     </a>
                 </div>
                 <div class="title_block">
@@ -320,8 +326,8 @@
                 </div>
                 <div class="title_block">
                     <div class="title_block-title">
-                        <span class="title_word">以人為本</span>
                         <span class="title_number">04</span>
+                        <span class="title_word">以人為本</span>
                     </div>
                     <div class="title_block-text">
                         <div class="text_slogan">使用者導向的貼心設計</div>
