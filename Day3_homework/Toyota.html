@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .wrap {
+            width: 100%;
+            font-family:'Malgun Gothic';
+            font-weight: lighter;
+        }
+    }
+
+        .container-card_list {
+            display: flex;
+            flex-direction: column;
+            gap: 70px;
+        }
+
+        /* ----card------ */
+        .card {
+            margin: auto;
+            width: 960px;
+            position: relative;
+        }
+        .picture {
+            width: 695px;
+            height: 428px;
+            margin-left: 185px;
+            margin-right: 80px;
+            margin-top: -181px;
+            position: relative;
+            z-index: 2;
+        }
+        .card:nth-child(2n) .picture{
+            margin-left: 7px;
+            margin-right: 80px; 
+            z-index: 1;
+        }
+        .card:nth-child(2n-1) .rectangle {
+            width: 440px;
+            height: 290px;
+            background-color: #F4F4F4;
+            position: relative;
+            left: 520px;
+        }
+        .card:nth-child(2n) .rectangle {
+            display: flex;
+            width: 440px;
+            height: 290px;
+            background-color: #F4F4F4;
+            position: absolute;
+            right: 163px;
+        }
+
+        .yt_logo {
+            background-color: #BB0404;
+            width: 59px;
+            height: 39px;
+            position: relative;
+            top: -250px;
+            right: -650px;
+            z-index: 2;
+        }
+        .card:nth-child(2n) .yt_logo{
+            width: 59px;
+            height: 39px;
+            margin-left: -1356px;
+            z-index: 3;
+        }
+
+        .triangle {
+            width: 0;
+            height: 0;
+            border-top: 10px solid #BB0404;
+            border-right: 10px solid #BB0404;
+            border-bottom: 10px solid #BB0404;
+            border-left: 20px solid #fff;
+            margin: 20px;
+            position: relative;
+            top: 10px;
+
+        }
+
+        /* ---.title_block{}----- */
+        .title_block {
+            /* 960*33%=316.8 */
+            width: 356px;
+            position: relative;
+            top: -572px;
+            z-index: 2;
+            
+        }
+        .card:nth-child(2n) .title_block{
+            /* width: 356px; */
+            /* position: relative; */
+            /* top: -573px; */
+            right: 0px;
+            z-index: 2;
+        }
+
+        /* ---紅區.title_block-title{----- */
+        .title_block-title {
+            display: flex;
+            align-items: center;
+            color: #F4F4F4;
+            background-color: #BB0404;
+            display: flex;
+            justify-content: center;
+        }
+
+        .title_number {
+            /* height: 124px; */
+            width: 93px;
+            transform: rotate(90deg);
+            font-size: 125px;
+            /* position: relative; */
+            /* margin: 10px; */
+            left: 22px;
+            bottom: 15px;
+           }
+        .card:nth-child(2n) .title_word{
+
+        }
+
+        .title_word {
+            position: relative;
+            left: -12px;
+            display: block;
+            font-size: 55px;
+        }
+
+        /* -----黑區title_block-text---------- */
+        .title_block-text {
+
+            line-height: 2;
+            background-color: #000;
+            color: #F4F4F4;
+            padding: 20px 20px 64px 20px;
+
+        }
+
+        .text_slogan {
+            font-size: 28px;
+            font-weight: 600;
+        }
+
+        .text_script {
+            font-size: 20px;
+        }
+
+        /* --.illustrate_block{}--- */
+        .illustrate_block {
+            width: 681px;
+            background-color: #EEEEEE;
+            position: absolute;
+            padding: 20px;
+            top: 538px;
+            right: 239px;
+            z-index: 2;
+        }
+        .card:nth-child(2n) .illustrate_block{
+            position: absolute;
+            top: 574px;
+            left: 239px;
+            z-index: 2;
+        }
+
+        .illustrate_block-title {
+            font-size: 20px;
+            font-weight: 600;
+            color: #BE1414;
+        }
+
+        .illustrate_block-list {
+            list-style: none;
+
+        }
+
+        .list_subtitle {
+            display: inline-block;
+            background-color: #000;
+            color: #F4F4F4;
+            padding: 2px 4px;
+            margin: 5px 0px;
+        }
+
+        .list_text::before {
+            display: inline-block;
+            color: #BE1414;
+            content: '■ ';
+            font-size: 8px;
+            vertical-align: middle;
+        }
+
+        .list_text {
+            padding-left: 20px;
+            color: #767676;
+            font-weight: 700;
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <!-- 最底層 -->
+    <div class="wrap">
+        <!-- 內容寬度 -->
+        <div class="container-card_list">
+            <div class="card">
+                <div class="rectangle"></div>
+                <div class="picture">
+                    <a href="https://www.youtube.com/watch?v=WH9kmoDw0fI&t=46s">
+                        <div class="img"><img src="./img/advantage-1-video-button-bg.png" alt=""></div>
+                        <div class="yt_logo">
+                            <div class="triangle"></div>
+                        </div>
+                    </a>
+                </div>
+                <div class="title_block">
+                    <div class="title_block-title">
+                        <span class="title_number">01</span>
+                        <span class="title_word">操控樂趣</span>
+                    </div>
+                    <div class="title_block-text">
+                        <div class="text_slogan">人人滿意的駕駛體驗</div>
+                        <div class="text_script">透過最佳重量分配，實現平順起步、直線穩定加速，過彎同時保持車身平穩，帶給駕駛更靈敏的道路反饋，享受隨心馳騁的行駛快感。
+                        </div>
+                    </div>
+                </div>
+                <div class="illustrate_block">
+                    <div class="illustrate_block-title">因為我們做了這些革新 ———————————————————————
+                    </div>
+                    <div class="illustrate_block-list">
+                        <p class="list_subtitle">低重心設計</p>
+                        <p class="list_text"> 透過低重心設計，不僅呈現更低伏的外觀，更能減少車身側傾，保持高速行駛穩定性。</p>
+                        <p class="list_subtitle">車體剛性強化</p>
+                        <p class="list_text"> 車身結構採用超高強度鋼材，提高車輛穩定性，同時藉由雷射強化焊接技術，大幅增加焊點數量，提升車身抗扭剛性，強化駕馭穩定性及安全性。</p>
+                        <p class="list_subtitle">四輪獨立懸吊</p>
+                        <p class="list_text"> 搭載全新四輪獨立懸吊設定，透過懸吊的高承載強度，保持輪胎抓地力，同時兼顧轉向靈敏度與清晰路感回饋，提升駕馭樂趣。</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="rectangle"></div>
+                <div class="picture">
+                    <a href="https://www.toyota.com.tw/tech_TNGA.aspx#/advantages">
+                        <span class="img"><img src="./img/advantage-2-video-button-bg.png" alt=""></span>
+                        <div class="yt_logo"><img src="./img/video-icon.png" alt=""></div>
+                    </a>
+                </div>
+                <div class="title_block">
+                    <div class="title_block-title">
+                        <span class="title_word">安全守護</span>
+                        <span class="title_number">02</span>
+                    </div>
+                    <div class="title_block-text">
+                        <div class="text_slogan">行車更安心的高剛性車體</div>
+                        <div class="text_script">您的愛車會妥善保護您，強悍穩固的車身可使您安全無虞。世界級的安全科技讓你輕鬆自如享受旅程、毫無後顧之憂。
+                        </div>
+                    </div>
+                </div>
+                <div class="illustrate_block">
+                    <div class="illustrate_block-title">因為我們做了這些革新 ———————————————————————
+                    </div>
+                    <div class="illustrate_block-list">
+                        <div class="illustrate_block-list">
+                            <p class="list_subtitle">主動安全</p>
+                            <p class="list_text"> 以先進的TSS系統，主動偵測路況，輔助駕駛判斷路況並維持行車安全。</p>
+                            <p class="list_subtitle">被動安全</p>
+                            <p class="list_text"> 堅固的高剛性車體，使用熱沖壓材料的高強度抗扭鋼板，強化座艙對意外事故的保護力。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="rectangle"></div>
+                <div class="picture">
+                    <a href="https://www.youtube.com/watch?v=WH9kmoDw0fI&t=46s">
+                        <div class="img"><img src="./img/advantage-3-video-button-bg.png" alt=""></div>
+                        <div class="yt_logo">
+                            <div class="triangle"></div>
+                        </div>
+                    </a>
+                </div>
+                <div class="title_block">
+                    <div class="title_block-title">
+                        <span class="title_number">03</span>
+                        <span class="title_word">乘坐舒適</span>
+                    </div>
+                    <div class="title_block-text">
+                        <div class="text_slogan">令人放鬆舒適的車室空間</div>
+                        <div class="text_script">車室空間設計著重人體工學，透過方向盤、踏板等位置優化，追求更舒適的駕駛位置，並以新型佐以設計，提高座椅包覆性，致力實現長途駕駛不疲勞的舒適駕馭體驗。
+                        </div>
+                    </div>
+                </div>
+                <div class="illustrate_block">
+                    <div class="illustrate_block-title">因為我們做了這些革新 ———————————————————————
+                    </div>
+                    <div class="illustrate_block-list">
+                        <p class="list_subtitle">駕駛位置最佳化</p>
+                        <p class="list_text"> 針對駕駛位置進行徹底的修改，讓駕馭者可如同握手般自然且舒適地操控方向盤。</p>
+                        <p class="list_subtitle">駕馭視野佳</p>
+                        <p class="list_text"> 考量駕駛坐進車內的高度，透過前擋風玻璃位置的調整，達到盲區極小化，使駕駛視野更開闊，同步提升駕馭安全。</p>
+                        <p class="list_subtitle">更寧靜的車室</p>
+                        <p class="list_text"> 採用最新三層結構的隔音材料，與引擎、變速箱的零件改革，將座艙的震動抑制在最小限度，提供乘客舒適安靜的感受。</p>
+                    </div>
+                </div>
+            </div><div class="card">
+                <div class="rectangle"></div>
+                <div class="picture">
+                    <a href="https://www.youtube.com/watch?v=WH9kmoDw0fI&t=46s">
+                        <div class="img"><img src="./img/advantage-4-video-button-bg.png" alt=""></div>
+                        <div class="yt_logo">
+                            <div class="triangle"></div>
+                        </div>
+                    </a>
+                </div>
+                <div class="title_block">
+                    <div class="title_block-title">
+                        <span class="title_number">04</span>
+                        <span class="title_word">以人為本</span>
+                    </div>
+                    <div class="title_block-text">
+                        <div class="text_slogan">使用者導向的貼心設計</div>
+                        <div class="text_script">藉由高度人性化的介面整合、傳遞車輛資訊，豐富日常駕駛體驗。從提升油耗表現到行李厢空間最適化，均細心考量，更加貼近使用者真正所需與習慣，並給予即時回應。
+                        </div>
+                    </div>
+                </div>
+                <div class="illustrate_block">
+                    <div class="illustrate_block-title">因為我們做了這些革新 ———————————————————————
+                    </div>
+                    <div class="illustrate_block-list">
+                        <p class="list_subtitle">優異油耗表現</p>
+                        <p class="list_text"> 以Corotla Sport為例，更強勁的高效引擎將熱效率提升至40%，達到世界級水準，屢屢穾破燃油效率新境界</p>
+                        <p class="list_subtitle">行李箱空間最適化</p>
+                        <p class="list_text"> 為例，透過將電池位置移到後座下方，讓行李箱擁有更大的空間。</p>
+                    </div>
+                </div>
+            </div><div class="card">
+                <div class="rectangle"></div>
+                <div class="picture">
+                    <a href="https://www.youtube.com/watch?v=WH9kmoDw0fI&t=46s">
+                        <div class="img"><img src="./img/advantage-5-video-button-bg.png" alt=""></div>
+                        <div class="yt_logo">
+                            <div class="triangle"></div>
+                        </div>
+                    </a>
+                </div>
+                <div class="title_block">
+                    <div class="title_block-title">
+                        <span class="title_number">05</span>
+                        <span class="title_word">引以為傲</span>
+                    </div>
+                    <div class="title_block-text">
+                        <div class="text_slogan">極具吸引力的精心設計</div>
+                        <div class="text_script">TNGA 車款擁有讓人忍不住回頭的新潮外觀、讓駕駛充滿自信的駕馭快感！不僅讓車主能展現個人風格，也能讓擁有者都能引以為傲。
+                        </div>
+                    </div>
+                </div>
+                <div class="illustrate_block">
+                    <div class="illustrate_block-title">因為我們做了這些革新 ———————————————————————
+                    </div>
+                    <div class="illustrate_block-list">
+                        <p class="list_subtitle">設計概念</p>
+                        <p class="list_text"> 低重心設計，不僅呈現更低伏的運動化外觀，更講究高品質內裝的一致性。</p>
+                        <p class="list_subtitle">環保概念</p>
+                        <p class="list_text"> 為了對環境保護盡一份心力，我們全面提升傳統引擎、變速箱與油電複合動力的動力效能。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
