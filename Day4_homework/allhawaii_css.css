@@ -1,0 +1,422 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: YakuHanJP, '游ゴシック Medium', YuGothic, YuGothicM, 'Noto Sans Japanese', sans-serif;
+    text-decoration: none;
+    color: #000;
+}
+
+img{
+    width: 100%;
+    vertical-align: bottom;
+}
+
+.container {
+    
+    gap: 30px;
+    margin: auto;
+    max-width: 1200px;
+    min-width: 320px;
+    
+}
+
+
+.mid-color{
+    background-color: #F9F6F5;
+}
+.slogn .top_title-en {
+
+    font-size: 2em;
+    line-height: 0.8;
+    padding: 10px;
+}
+.slogn .top_title-en:first-child {
+}
+
+.slogn h1 .top_title-jp {
+    display: block;
+    font-size: 16px;
+    margin: 20px 10px 10px 10px;
+}
+
+
+.slogn_pic-img {
+    width:110% ;
+    vertical-align: bottom;
+
+}
+
+.slogn_pic-p {
+    padding: 10px 10px 10px 10px;
+    font-size: 13px;
+    line-height: 2;
+    word-break: keep-all;
+}
+
+/*海龜區*/
+
+.container.story .story_pic img {
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+    vertical-align: bottom;
+    padding: 10px;
+
+}
+
+.container.story .story_txt{
+    padding:20px;
+
+}
+.story_txt a{
+    margin-top: 20px;
+    text-decoration: none;
+}
+/* ---whet we can do-- */
+.container.whetWeCan{
+    padding:10px ;
+}
+.container.whetWeCan h3{
+    font-size: 2em;
+    line-height: 1;
+    margin: 30px 10px;
+
+}
+.container.whetWeCan span{
+
+    font-size: 0.8em;
+    color:#F65936 ; 
+    
+}
+
+.about_title{
+    text-align: center;
+    font-size: 12px;
+    margin: 30px;
+}
+
+
+/* ---清單------ */
+/* 卡片清單外的"最新"標題 */
+
+.latest_title {
+    font-size: 21px;
+    padding: 20px 10px;
+    border-top: 2px solid #000;
+}
+
+/* 卡片清單內2大標題 */
+.cardList_title {
+    display: flex;
+    justify-content: space-between;
+    grid-area: 1/1/2/3;
+}
+
+.cardList_title h3 {
+    font-size: 21px;
+    margin-bottom: 10px;
+}
+
+.cardList_title h2 {
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cardList_title h2 .en {
+    font-size: 1em;
+    color:#737475 ;
+}
+.cardList_title h2 .jp {
+    font-size: 1.2em;
+}
+
+.cardList_title>a {
+    font-size: 13px;
+    color: #F8856B;
+}
+
+.cardList_title a span {
+    font-size: 13px;
+    display: inline-block;
+}
+
+.cardTitle a::after {
+    /*畫橘色右箭頭*/
+    /* content: "";
+    background: url(./icon/right_arrow_short.svg) center center no-repeat;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    border: 1px solid #f65936;
+    border-radius: 50%;
+    transform: translate(5px, 5px); */
+}
+
+/* --卡片本身-- */
+.card {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.card .icon {
+    display: flex;
+}
+.card .none{
+    height: 1.7em;
+
+}
+
+.card .icon img{
+    height: 20px;
+    width: 20px;
+}
+
+.card .pic img {
+    width: 100%;
+    height: fit-content;
+    border-radius: 10px;
+
+}
+
+.card .txt {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.card .txt h3 {
+    font-size: 12px;
+    word-wrap: break-word;
+    overflow: hidden;
+}
+
+.card .txt p {
+    font-size: 13px;
+    color:#737475 ;
+
+}
+
+.card .txt time {
+    margin-top: auto;
+    color:#737475 ;
+
+}
+
+.cardList {
+    display: grid;
+    grid-template: repeat(4, auto)/repeat(2, 1fr);
+    gap: 15px;
+    margin: 15px 10px;
+}
+
+/*-受注目的卡片-- */
+.card.active {
+    grid-area: 2 / 1 / 6 / 3;
+}
+
+.card.active .icon span {
+    grid-area: 2/1/3/2;
+}
+
+.card.active .pic {}
+
+.card.active .txt {
+    grid-template: repeat(2 / auto), repeat(2 / 1fr);
+}
+
+.card.active .txt h3 {
+    font-size: 16px;
+    grid-column: 1/span 1;
+}
+
+.card.active p {
+    grid-area: 1/2/2/3;
+
+}
+
+.card.active time {
+
+    /* grid-area: 2/2/3/3; */
+}
+
+
+@media screen and (min-width:768px) {
+
+    .container {
+        gap: 20px;
+    }
+
+    /* 第一部分 */
+    .container.introduction {
+        position: relative;
+    }
+    .slogn{
+        display: flex;
+    }
+
+    .slogn .top_title-en {
+
+        font-size: 3.5em;
+        position: relative; 
+        left: 580px;
+        top: 180px;
+        z-index: 1;
+    }
+
+    .slogn h1 .top_title-jp {
+
+        font-size: 30px;
+        margin-bottom: 50px;
+        margin-left: 50px;
+
+    }
+
+    /* 泥土圖片 */
+    .slogn_pic img {
+        width: 100%;
+        scale: 1.3 1.5;
+        margin-left: -100px;
+        margin-top: 180px;
+        margin-bottom: 120px;
+        overflow: hidden;
+    }
+
+    .slogn_pic{
+       
+        display: flex;
+    }
+    .slogn_pic-p {
+        height: auto;
+        font-size: 1em;
+        line-height: 1.5;
+        writing-mode: vertical-rl;
+        padding: 100px 80px  ;
+        margin: auto;
+
+
+
+    }
+    /* 第一部分下 海龜  */
+
+    .container.mid-color{
+        max-width: 100%;
+
+    }
+    .container.story {
+        display: flex;
+        gap: 50px;
+        margin: 80px 100px ;
+        position: relative;
+    }
+
+    .container.story .story_pic{
+        width: 350%;
+        transform: scale(1);
+    }
+
+    .container.story .story_pic img{
+       
+        width: 100%;
+        position: relative;
+        bottom: 100px;
+
+
+    }
+    .container.story .story_txt {
+        display: flex;
+        flex-direction: column;
+
+    }
+    .story_txt h2{
+        font-size: 2.3em;
+        margin-bottom: 30px;
+    }
+
+    .story_txt a{
+        transform: translateY(15px);
+    }
+    /* ----what we can do----- */
+    .container.whetWeCan{
+        /* padding: 50px 100px ; */
+        margin: 30px auto;
+        font-size: 2em;
+    }
+    .container.whetWeCan h3{
+        font-size: 3em;
+        line-height: 0.8;
+        margin: 10px 0px;
+    
+    }
+    .container.whetWeCan span{
+    
+        font-size: 0.8em;
+        color:#F65936 ;  
+        
+    }
+    .about_title{
+        
+        font-size: 1em;
+    }
+
+
+
+    /* 卡片清單 */
+    .cardList {
+        display: grid;
+        grid-template: repeat(3 , auto)/repeat(4, 1fr);
+        gap: 10px;
+    }
+    .cardList_title h2{
+        display: inline;
+    }
+    .cardList_title .jp{
+
+    }
+
+
+
+
+
+    /* --卡片本身-- */
+
+    .cardList_title {
+        display: flex;
+        justify-content: space-between;
+        grid-area: 1/1/span 1/ span 4;
+    }
+
+    .cardList:nth-child(2n-1) {
+        direction: rtl;
+    }
+
+    .card.active {
+        grid-area: 2/1/4/span 4 /2;
+    }
+
+    .card .txt {
+        gap: 20px;
+        margin-top: 20px;
+        display: grid;
+        grid-column: repeat(2, 1fr);
+    }
+
+    .card .txt h3 {
+        font-size: 16px;
+
+    }
+
+    .card .pic img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+    }
+
+
+    .card.active .txt h3 {
+        font-size: 18px;
+
+    }
+
+}
