@@ -251,6 +251,7 @@ img{
     /* 第一部分 */
     .container.introduction {
         position: relative;
+        margin:  0 auto;
     }
     .slogn{
         display: flex;
@@ -307,7 +308,7 @@ img{
     .container.story {
         display: flex;
         gap: 50px;
-        margin: 80px 100px ;
+        margin: 80px auto ;
         position: relative;
     }
 
