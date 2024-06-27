@@ -15,6 +15,8 @@ a{
 img{
     width: 90%;
     vertical-align:top;
+    object-fit: contain;
+
 }
 h2{
     font-size: 1.5em;
@@ -22,7 +24,6 @@ h2{
 }
 h3{ font-size: 1.3em;
     margin:1em 0 ;
-    padding: 0 1em;
 
 }
 h4{
@@ -31,7 +32,6 @@ h4{
 }
 p{
     margin:1em 0 ;
-    padding: 0 1em;
 
 }
 /* .top_icon{
@@ -56,13 +56,14 @@ nav img{
     }
     li{
       width: 48%;
+      padding:  .3em 0;
     }
 }
 li{
     font-size: .9em ;
     margin: 0.8em 0;
-    padding: 0 1%;
     list-style-position: inside;
+   
 }
 li::before{
     content: '●';
@@ -82,20 +83,25 @@ li::before{
     display: block;  
     margin: 4em 0;
  }
+ .card:nth-child(2n){
+    flex-direction: row-reverse;
+ }
+ @media screen and ( min-width:768px ) {
+    .card:nth-child(2n) .pic{
+        flex-direction: row-reverse;
+    }
+ }
+
  @media screen and ( min-width:768px ) {
     .card{
         display: flex; 
         margin: 75px 0; 
      }
  }
-.pic img{
-    transform:translateX(5%);
+.pic{
+    display: flex;
+    
 }
-@media screen and ( min-width:768px ) {
-    .pic img{
-        transform:translateX(-5%);
-    }
- }
 
 
 .webLink{
@@ -107,6 +113,9 @@ li::before{
 
 .a_text{
     color: blue;
+    display: inline;
+    text-decoration: underline .2em blue;
+    text-underline-offset: .5em;
 }
 .a_text:hover+.a_arrow ,.a_arrow:hover{
 
