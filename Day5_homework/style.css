@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: #052855;
+    list-style: none;
+    letter-spacing: 0.1em;
+    
+    /* https://medium.com/vhs-design-vitamin-for-creative-mind/font-size-4b4817ac17a3 */
+}
+
+
+a{
+    text-decoration: none;
+}
+img{
+    width: 90%;
+    vertical-align:top;
+}
+h2{
+    font-size: 1.5em;
+    padding:1em 0 ;
+}
+h3{ font-size: 1.3em;
+    margin:1em 0 ;
+    padding: 0 1em;
+
+}
+h4{
+    margin:1em 0 ;
+
+}
+p{
+    margin:1em 0 ;
+    padding: 0 1em;
+
+}
+
+@media screen and (min-width:768px) {
+    ul{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    li{
+      width: 48%;
+    }
+}
+li{
+    font-size: .9em ;
+    margin: 0.8em 0;
+    padding: 0 1%;
+    list-style-position: inside;
+}
+li::before{
+    content: '●';
+    color: blue;
+    margin-right: .8em;
+    vertical-align: top;
+}
+.banner{
+    max-width: 100%;
+    text-align: center;
+    background-color: #F7F8F9;
+    padding: 10px 10px;
+}
+
+/* 卡片清單 */
+.card{
+    display: block;  
+    margin: 4em 0;
+ }
+ @media screen and ( min-width:768px ) {
+    .card{
+        display: flex; 
+        margin: 75px 0; 
+     }
+ }
+.pic img{
+    transform:translateX(5%);
+}
+@media screen and ( min-width:768px ) {
+    .pic img{
+        transform:translateX(-5%);
+    }
+ }
+
+
+.webLink{
+    margin-top: 1.5em;
+}
+.webLink a{
+    padding: 0 1em;
+}
+
+.a_text{
+    color: blue;
+}
+.a_text:hover+.a_arrow ,.a_arrow:hover{
+
+    transition: .4s;
+    margin-left: 3px;
+}
+
+.serviceInfo{
+    max-width: 100%;
+    background-color: #F7F8F9;
+    text-align: center;
+    padding-top: 1em;
+}
+
+.serve_item{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.icon{
+    display: flex;
+    height: 100px;
+    width: 100px;
+    margin:2em auto;
+    justify-items: center;
+}
+.icon img{
+width: 100%;
+}
+
+
+
+
+

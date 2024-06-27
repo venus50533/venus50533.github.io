@@ -1,0 +1,23 @@
+
+h1{font-size: 3.5em;}
+h2{font-size: 3em;}
+h3{font-size: 2.5em;}
+h4{font-size: 1.55em;}
+@media screen and (min-width:768px) {
+    h1{font-size: 4em;}
+    h2{font-size: 3em;}
+    h3{font-size: 2.5em;}
+    h4{font-size: 1.55em;}    
+}
+@media screen and (min-width:1024px) {
+    h1{font-size: 4.5em;}
+    h2{font-size: 3.5em;}
+    h3{font-size: 2.3em;}
+    h4{font-size: 1.75em;}    
+}
+@media screen and (min-width:1301px) {
+    h1{font-size: 4.5em;}
+    h2{font-size: 3.5em;}
+    h3{font-size: 2.3em;}
+    h4{font-size: 1.8em;}    
+}
