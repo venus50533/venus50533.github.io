@@ -219,7 +219,7 @@ function makeDayGrid(year, monthIdx) {
 
             //清空輸入框
             inputOfThing.value = ''
-            inputOfColor.value ='#000'
+            inputOfColor.value ='#000000'
 
             saveBtn.classList.remove("d-none")
             deleteBtn.classList.add("d-none")
