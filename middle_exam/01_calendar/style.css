@@ -121,8 +121,7 @@ div .date_box:hover {
 /* 內部待辦事項清單設定------ */
 .todo-event{
     position: relative;
-    top: -20px;
-    left: 10px;
+    top: -50px;
     
 }
 

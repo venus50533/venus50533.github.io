@@ -30,10 +30,10 @@
                 <span class="month_picker" id="month_picker"></span>
             </div>
             <div class="calendar_body mt-4">
-                <ul class="week_list d-grid  p-0 " id="weekList">
-                </ul>
-                <ul class="date_list d-grid p-0" id="dateList">
-                </ul>
+                <div class="week_list d-grid  p-0 " id="weekList">
+                </div>
+                <div class="date_list d-grid p-0" id="dateList">
+                </div>
             </div>
             <div class="modal   " tabindex="-1" id="loginModal">
                 <div class="modal-dialog">
@@ -67,9 +67,10 @@
                                 class="btn btn-danger d-none" 
                                 data-bs-dismiss="modal">刪除</button>
                             <button 
-                                type="button" 
+                                type="button"
+                                id="update_btn" 
                                 class="btn btn-warning d-none" 
-                                data-bs-dismiss="modal">關閉</button>
+                                data-bs-dismiss="modal">更新</button>
                             <button 
                                 id="save_btn" 
                                 type="button" 
@@ -79,14 +80,14 @@
                 </div>
             </div>
             <template id="colTemplate">
-                <li class="date grid date_box" >
+                <div class="date grid date_box" >
                     <p class="date_text">2</p>
                     <ul class="todo_list" >
                     </ul>
                     <button type="button" class="btn add_btn" data-bs-toggle="modal"
                         data-bs-target="#loginModal" data-bs-whatever="@mdo">＋
                     </button>
-                </li>
+                </div>
             </template>
             <!-- data-bs-toggle="modal"        啟用modal功能
                  data-bs-target="#loginModal"  要顯示modal的目標元素

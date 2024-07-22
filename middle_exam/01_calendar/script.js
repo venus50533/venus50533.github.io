@@ -6,6 +6,7 @@ const nextYearBtn = document.querySelector("#next_year");
 const loginModal = document.querySelector("#loginModal");
 const saveBtn = loginModal.querySelector("#save_btn")
 const deleteBtn = loginModal.querySelector("#delete_btn")
+const updateBtn = loginModal.querySelector("#update_btn")
 //抓modal dom //使用bootstrap的Modal類來控制對話關閉
 const myModal = document.querySelector("#loginModal")
 const modal = new bootstrap.Modal(myModal)
@@ -34,15 +35,38 @@ const monthPicker = document.querySelector("#month_picker");
 window.addEventListener("load", () => {
     //月曆建置
     weekNames.forEach((item) => {
-        let li = document.createElement("li")
-        li.textContent = item
-        li.classList.add('week_name')
-        weekNameList.appendChild(li)
+        let div = document.createElement("div")
+        div.textContent = item
+        div.classList.add('week_name')
+        weekNameList.appendChild(div)
     });
     ChangeYearMonth()
     makeDayGrid(currYear, currMonth)
     makeEventListItem()
 
+})
+
+updateBtn.addEventListener("click", () => {
+    const dateTimeInput = document.querySelector("#datetime").value;
+    const formattedDateTime = formatDateToLocal(dateTimeInput); // 確保格式化
+    const todoItemInput = document.querySelector("#todoItem").value.trim();
+    const colorInput = document.querySelector("#colorInput").value;
+    // 取得待更新的待辦事項 ID
+    let todoId = parseInt(updateBtn.getAttribute("data-id"))
+    const todoList = getTodoListFromStorage();
+    const filterId2 = todoList.findIndex(event => event.id === todoId);
+    todoList.splice(filterId2,1)
+    const filterId = todoList.find(event => event.id === todoId);
+    console.log(filterId);
+    filterId.datetime = formattedDateTime;
+    filterId.todoItem = todoItemInput;
+    filterId.color = colorInput;
+    todoList.push(filterId)
+    localStorage.setItem(key, JSON.stringify(todoList)); // 更新 localStorage
+    // 重新顯示待辦事項  // 重新生成日曆
+    modal.hide();
+    makeDayGrid(currYear, currMonth);
+    makeEventListItem();
 })
 
 prevYearBtn.addEventListener("click", () => {
@@ -163,7 +187,7 @@ function makeDayGrid(year, monthIdx) {
     //產生日期
     //得到一串日期，根據日期做出日期格子
     for (let idx = 1; idx <= 42; idx++) {
-        const cloneDateGrid = copyTemplate.content.querySelector("li")
+        const cloneDateGrid = copyTemplate.content.querySelector("div")
         const dateGrid = cloneDateGrid.cloneNode(true)
         const numOfDateGrid = dateGrid.querySelector("p")
         //星期天開始算
@@ -183,12 +207,12 @@ function makeDayGrid(year, monthIdx) {
             numOfDateGrid.classList.add('current_month')
             dateGrid.setAttribute("a_year", `${currYear}`)
             dateGrid.setAttribute("a_month", `${currMonth + 1}`)
-            if(currYear === thisYear && 
-               currMonth === thisMonth && parseInt(numOfDateGrid.textContent)===thisDay){
-                const todayCircle = document.createElement("span");
-                todayCircle.classList.add("today-circle")
-                dateGrid.appendChild(todayCircle)
-            }
+            // if(currYear === thisYear && 
+            //    currMonth === thisMonth && parseInt(numOfDateGrid.textContent)===thisDay){
+            //     const todayCircle = document.createElement("span");
+            //     todayCircle.classList.add("today-circle")
+            //     dateGrid.appendChild(todayCircle)
+            // }
 
 
         } else {
@@ -223,6 +247,8 @@ function makeDayGrid(year, monthIdx) {
 
             saveBtn.classList.remove("d-none")
             deleteBtn.classList.add("d-none")
+            updateBtn.classList.add("d-none")
+            
             modal.show()
         })
 
@@ -258,7 +284,7 @@ function makeEventListItem()
 {
     getStoredEvent = getTodoListFromStorage();
     //清空待辦事項
-    document.querySelectorAll(".todo_list").forEach(ul => ul.innerHTML = '');
+    // document.querySelectorAll(".todo_list").forEach(ul => ul.innerHTML = '');
     //對雲端拿下來的資料進行處理
     getStoredEvent.forEach((todoEvent) => {
         // 製作待辦事項的li元素，寫上待辦事項，染色
@@ -276,10 +302,12 @@ function makeEventListItem()
             inputOfThing.value = todoEvent.todoItem
             inputOfColor.value = todoEvent.color
             deleteBtn.setAttribute("data-id", todoEvent.id) //刪除鈕ID
+            updateBtn.setAttribute("data-id", todoEvent.id) //刪除鈕ID
             selectedTarget = todoEvent //選中的待辦事項
             modal.show()
             saveBtn.classList.add("d-none")
             deleteBtn.classList.remove("d-none")
+            updateBtn.classList.remove("d-none")
             modal.show()
         })
 
@@ -289,19 +317,16 @@ function makeEventListItem()
         const gridDate = (new Date(todoEvent.datetime).getDate()).toString()
 
         //抓待辦事項的ul
-        let allGridsUl = document.querySelectorAll(".date");
+        let allGridsUl = document.querySelectorAll(".date");////////////
         allGridsUl.forEach((dateGrid) => {
             const year = dateGrid.getAttribute("a_year");
             const month = dateGrid.getAttribute("a_month");
             const date = dateGrid.getAttribute("a_date");
             if (year === gridYear && month === gridMonth && date === gridDate) {
 
-                dateGrid.appendChild(eventListItem)
+                dateGrid.querySelector(".todo_list").appendChild(eventListItem)
             }
         })
     })
 
 }
-
-
-
