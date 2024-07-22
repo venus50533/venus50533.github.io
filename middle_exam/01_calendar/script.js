@@ -68,6 +68,7 @@ updateBtn.addEventListener("click", () => {
     modal.hide();
     makeDayGrid(currYear, currMonth);
     makeEventListItem();
+
 })
 
 prevYearBtn.addEventListener("click", () => {
