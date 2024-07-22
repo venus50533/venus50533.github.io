@@ -49,19 +49,20 @@ window.addEventListener("load", () => {
 updateBtn.addEventListener("click", () => {
     const dateTimeInput = document.querySelector("#datetime").value;
     const formattedDateTime = formatDateToLocal(dateTimeInput); // 確保格式化
+    console.log(formattedDateTime)
+    
     const todoItemInput = document.querySelector("#todoItem").value.trim();
     const colorInput = document.querySelector("#colorInput").value;
     // 取得待更新的待辦事項 ID
     let todoId = parseInt(updateBtn.getAttribute("data-id"))
     const todoList = getTodoListFromStorage();
-    const filterId2 = todoList.findIndex(event => event.id === todoId);
-    todoList.splice(filterId2,1)
-    const filterId = todoList.find(event => event.id === todoId);
-    console.log(filterId);
-    filterId.datetime = formattedDateTime;
-    filterId.todoItem = todoItemInput;
-    filterId.color = colorInput;
-    todoList.push(filterId)
+    const targetId = todoList.find(event => event.id === todoId);
+    const targetIdx = todoList.findIndex(event => event.id === todoId);
+    todoList.splice(targetIdx,1)
+    targetId.datetime = formattedDateTime;
+    targetId.todoItem = todoItemInput;
+    targetId.color = colorInput;
+    todoList.push(targetId)
     localStorage.setItem(key, JSON.stringify(todoList)); // 更新 localStorage
     // 重新顯示待辦事項  // 重新生成日曆
     modal.hide();
