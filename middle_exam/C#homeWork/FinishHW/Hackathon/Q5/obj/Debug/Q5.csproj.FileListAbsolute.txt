@@ -1,0 +1,10 @@
+C:\Users\venus\OneDrive\桌面\Hackathon\Q5\bin\Debug\Q5.exe.config
+C:\Users\venus\OneDrive\桌面\Hackathon\Q5\bin\Debug\Q5.exe
+C:\Users\venus\OneDrive\桌面\Hackathon\Q5\bin\Debug\Q5.pdb
+C:\Users\venus\OneDrive\桌面\Hackathon\Q5\obj\Debug\Q5.csproj.AssemblyReference.cache
+C:\Users\venus\OneDrive\桌面\Hackathon\Q5\obj\Debug\Q5.Form1.resources
+C:\Users\venus\OneDrive\桌面\Hackathon\Q5\obj\Debug\Q5.Properties.Resources.resources
+C:\Users\venus\OneDrive\桌面\Hackathon\Q5\obj\Debug\Q5.csproj.GenerateResource.cache
+C:\Users\venus\OneDrive\桌面\Hackathon\Q5\obj\Debug\Q5.csproj.CoreCompileInputs.cache
+C:\Users\venus\OneDrive\桌面\Hackathon\Q5\obj\Debug\Q5.exe
+C:\Users\venus\OneDrive\桌面\Hackathon\Q5\obj\Debug\Q5.pdb

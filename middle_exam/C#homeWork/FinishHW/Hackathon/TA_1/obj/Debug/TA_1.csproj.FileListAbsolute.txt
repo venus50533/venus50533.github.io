@@ -1,0 +1,7 @@
+C:\Users\venus\OneDrive\桌面\Hackathon\TA_1\bin\Debug\TA_1.exe.config
+C:\Users\venus\OneDrive\桌面\Hackathon\TA_1\bin\Debug\TA_1.exe
+C:\Users\venus\OneDrive\桌面\Hackathon\TA_1\bin\Debug\TA_1.pdb
+C:\Users\venus\OneDrive\桌面\Hackathon\TA_1\obj\Debug\TA_1.csproj.AssemblyReference.cache
+C:\Users\venus\OneDrive\桌面\Hackathon\TA_1\obj\Debug\TA_1.csproj.CoreCompileInputs.cache
+C:\Users\venus\OneDrive\桌面\Hackathon\TA_1\obj\Debug\TA_1.exe
+C:\Users\venus\OneDrive\桌面\Hackathon\TA_1\obj\Debug\TA_1.pdb

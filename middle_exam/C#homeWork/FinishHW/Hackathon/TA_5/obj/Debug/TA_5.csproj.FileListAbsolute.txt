@@ -1,0 +1,10 @@
+C:\Users\venus\OneDrive\桌面\Hackathon\TA_5\bin\Debug\TA_5.exe.config
+C:\Users\venus\OneDrive\桌面\Hackathon\TA_5\bin\Debug\TA_5.exe
+C:\Users\venus\OneDrive\桌面\Hackathon\TA_5\bin\Debug\TA_5.pdb
+C:\Users\venus\OneDrive\桌面\Hackathon\TA_5\obj\Debug\TA_5.csproj.AssemblyReference.cache
+C:\Users\venus\OneDrive\桌面\Hackathon\TA_5\obj\Debug\TA_5.Form1.resources
+C:\Users\venus\OneDrive\桌面\Hackathon\TA_5\obj\Debug\TA_5.Properties.Resources.resources
+C:\Users\venus\OneDrive\桌面\Hackathon\TA_5\obj\Debug\TA_5.csproj.GenerateResource.cache
+C:\Users\venus\OneDrive\桌面\Hackathon\TA_5\obj\Debug\TA_5.csproj.CoreCompileInputs.cache
+C:\Users\venus\OneDrive\桌面\Hackathon\TA_5\obj\Debug\TA_5.exe
+C:\Users\venus\OneDrive\桌面\Hackathon\TA_5\obj\Debug\TA_5.pdb

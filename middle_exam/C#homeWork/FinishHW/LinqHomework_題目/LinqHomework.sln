@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34723.18
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqHomework", "LinqHomework\LinqHomework.csproj", "{C8499F32-B5C5-4605-A2FC-0AE00803D1A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{A93FB3D5-3F90-4711-87BC-0E171A56B873}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "linq3", "linq3\linq3.csproj", "{65163DB0-4695-47C2-AB52-C9286DF9B009}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C8499F32-B5C5-4605-A2FC-0AE00803D1A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8499F32-B5C5-4605-A2FC-0AE00803D1A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8499F32-B5C5-4605-A2FC-0AE00803D1A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8499F32-B5C5-4605-A2FC-0AE00803D1A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A93FB3D5-3F90-4711-87BC-0E171A56B873}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A93FB3D5-3F90-4711-87BC-0E171A56B873}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A93FB3D5-3F90-4711-87BC-0E171A56B873}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A93FB3D5-3F90-4711-87BC-0E171A56B873}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65163DB0-4695-47C2-AB52-C9286DF9B009}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65163DB0-4695-47C2-AB52-C9286DF9B009}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65163DB0-4695-47C2-AB52-C9286DF9B009}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65163DB0-4695-47C2-AB52-C9286DF9B009}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F469F016-4F1C-45EC-896F-0C310CB78854}
+	EndGlobalSection
+EndGlobal

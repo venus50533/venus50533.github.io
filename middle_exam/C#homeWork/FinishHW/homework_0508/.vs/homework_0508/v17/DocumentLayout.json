@@ -1,0 +1,144 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\venus\\OneDrive\\\u684C\u9762\\homework_0508\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{040D754C-70D6-495F-9A1B-95D79BB9B310}|Q6_1holiday_calculator\\Q6_1holiday_calculator.csproj|c:\\users\\venus\\onedrive\\\u684C\u9762\\homework_0508\\q6_1holiday_calculator\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{040D754C-70D6-495F-9A1B-95D79BB9B310}|Q6_1holiday_calculator\\Q6_1holiday_calculator.csproj|solutionrelative:q6_1holiday_calculator\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77F038E4-5E65-4596-99A5-949820B57ABF}|NumberJudgment02\\Q2NumberJudgment02.csproj|C:\\Users\\venus\\OneDrive\\\u684C\u9762\\homework_0508\\numberjudgment02\\02program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77F038E4-5E65-4596-99A5-949820B57ABF}|NumberJudgment02\\Q2NumberJudgment02.csproj|solutionrelative:numberjudgment02\\02program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{040D754C-70D6-495F-9A1B-95D79BB9B310}|Q6_1holiday_calculator\\Q6_1holiday_calculator.csproj|C:\\Users\\venus\\OneDrive\\\u684C\u9762\\homework_0508\\q6_1holiday_calculator\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{040D754C-70D6-495F-9A1B-95D79BB9B310}|Q6_1holiday_calculator\\Q6_1holiday_calculator.csproj|solutionrelative:q6_1holiday_calculator\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DBA9BED-3E8E-4323-A4A7-D0C5786BA2AC}|ReverseArray02_sort\\Q3_1ReverseArray02_sort.csproj|C:\\Users\\venus\\OneDrive\\\u684C\u9762\\homework_0508\\reversearray02_sort\\03_1program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DBA9BED-3E8E-4323-A4A7-D0C5786BA2AC}|ReverseArray02_sort\\Q3_1ReverseArray02_sort.csproj|solutionrelative:reversearray02_sort\\03_1program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C78602F5-97F5-41F2-A656-2DB2FB72EF86}|NumberJudgment01\\Q1NumberJudgment01.csproj|C:\\Users\\venus\\OneDrive\\\u684C\u9762\\homework_0508\\numberjudgment01\\01program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C78602F5-97F5-41F2-A656-2DB2FB72EF86}|NumberJudgment01\\Q1NumberJudgment01.csproj|solutionrelative:numberjudgment01\\01program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F5691E0-5B25-4E61-B740-4BBF5A5663F0}|Q6_2 HolidayCalculator_TwYear\\Q6_2 HolidayCalculator_TwYear.csproj|C:\\Users\\venus\\OneDrive\\\u684C\u9762\\homework_0508\\q6_2 holidaycalculator_twyear\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F5691E0-5B25-4E61-B740-4BBF5A5663F0}|Q6_2 HolidayCalculator_TwYear\\Q6_2 HolidayCalculator_TwYear.csproj|solutionrelative:q6_2 holidaycalculator_twyear\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F5691E0-5B25-4E61-B740-4BBF5A5663F0}|Q6_2 HolidayCalculator_TwYear\\Q6_2 HolidayCalculator_TwYear.csproj|C:\\Users\\venus\\OneDrive\\\u684C\u9762\\homework_0508\\q6_2 holidaycalculator_twyear\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6F5691E0-5B25-4E61-B740-4BBF5A5663F0}|Q6_2 HolidayCalculator_TwYear\\Q6_2 HolidayCalculator_TwYear.csproj|solutionrelative:q6_2 holidaycalculator_twyear\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "03_1Program.cs",
+              "DocumentMoniker": "C:\\Users\\venus\\OneDrive\\\u684C\u9762\\homework_0508\\ReverseArray02_sort\\03_1Program.cs",
+              "RelativeDocumentMoniker": "ReverseArray02_sort\\03_1Program.cs",
+              "ToolTip": "C:\\Users\\venus\\OneDrive\\\u684C\u9762\\homework_0508\\ReverseArray02_sort\\03_1Program.cs",
+              "RelativeToolTip": "ReverseArray02_sort\\03_1Program.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T12:20:07.352Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "02Program.cs",
+              "DocumentMoniker": "C:\\Users\\venus\\OneDrive\\\u684C\u9762\\homework_0508\\NumberJudgment02\\02Program.cs",
+              "RelativeDocumentMoniker": "NumberJudgment02\\02Program.cs",
+              "ToolTip": "C:\\Users\\venus\\OneDrive\\\u684C\u9762\\homework_0508\\NumberJudgment02\\02Program.cs",
+              "RelativeToolTip": "NumberJudgment02\\02Program.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T12:19:54.448Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\venus\\OneDrive\\\u684C\u9762\\homework_0508\\Q6_1holiday_calculator\\Form1.cs",
+              "RelativeDocumentMoniker": "Q6_1holiday_calculator\\Form1.cs",
+              "ToolTip": "C:\\Users\\venus\\OneDrive\\\u684C\u9762\\homework_0508\\Q6_1holiday_calculator\\Form1.cs",
+              "RelativeToolTip": "Q6_1holiday_calculator\\Form1.cs",
+              "ViewState": "AQIAACwAAAAAAAAAAAAswEIAAABoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T06:23:31.315Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "01Program.cs",
+              "DocumentMoniker": "C:\\Users\\venus\\OneDrive\\\u684C\u9762\\homework_0508\\NumberJudgment01\\01Program.cs",
+              "RelativeDocumentMoniker": "NumberJudgment01\\01Program.cs",
+              "ToolTip": "C:\\Users\\venus\\OneDrive\\\u684C\u9762\\homework_0508\\NumberJudgment01\\01Program.cs",
+              "RelativeToolTip": "NumberJudgment01\\01Program.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T12:19:47.227Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Form1.cs [\u8A2D\u8A08]",
+              "DocumentMoniker": "C:\\Users\\venus\\OneDrive\\\u684C\u9762\\homework_0508\\Q6_2 HolidayCalculator_TwYear\\Form1.cs",
+              "RelativeDocumentMoniker": "Q6_2 HolidayCalculator_TwYear\\Form1.cs",
+              "ToolTip": "C:\\Users\\venus\\OneDrive\\\u684C\u9762\\homework_0508\\Q6_2 HolidayCalculator_TwYear\\Form1.cs [\u8A2D\u8A08]",
+              "RelativeToolTip": "Q6_2 HolidayCalculator_TwYear\\Form1.cs [\u8A2D\u8A08]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T10:09:24.973Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\venus\\OneDrive\\\u684C\u9762\\homework_0508\\Q6_2 HolidayCalculator_TwYear\\Form1.cs",
+              "RelativeDocumentMoniker": "Q6_2 HolidayCalculator_TwYear\\Form1.cs",
+              "ToolTip": "C:\\Users\\venus\\OneDrive\\\u684C\u9762\\homework_0508\\Q6_2 HolidayCalculator_TwYear\\Form1.cs",
+              "RelativeToolTip": "Q6_2 HolidayCalculator_TwYear\\Form1.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAgwDUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T10:10:44.816Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs [\u8A2D\u8A08]",
+              "DocumentMoniker": "C:\\Users\\venus\\OneDrive\\\u684C\u9762\\homework_0508\\Q6_1holiday_calculator\\Form1.cs",
+              "RelativeDocumentMoniker": "Q6_1holiday_calculator\\Form1.cs",
+              "ToolTip": "C:\\Users\\venus\\OneDrive\\\u684C\u9762\\homework_0508\\Q6_1holiday_calculator\\Form1.cs [\u8A2D\u8A08]",
+              "RelativeToolTip": "Q6_1holiday_calculator\\Form1.cs [\u8A2D\u8A08]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T06:19:54.254Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

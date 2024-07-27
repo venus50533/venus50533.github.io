@@ -1,0 +1,7 @@
+C:\Users\venus\source\repos\Lab bill\homework_0508\RightTriangle\bin\Debug\RightTriangle.exe.config
+C:\Users\venus\source\repos\Lab bill\homework_0508\RightTriangle\bin\Debug\RightTriangle.exe
+C:\Users\venus\source\repos\Lab bill\homework_0508\RightTriangle\bin\Debug\RightTriangle.pdb
+C:\Users\venus\source\repos\Lab bill\homework_0508\RightTriangle\obj\Debug\RightTriangle.csproj.AssemblyReference.cache
+C:\Users\venus\source\repos\Lab bill\homework_0508\RightTriangle\obj\Debug\RightTriangle.csproj.CoreCompileInputs.cache
+C:\Users\venus\source\repos\Lab bill\homework_0508\RightTriangle\obj\Debug\RightTriangle.exe
+C:\Users\venus\source\repos\Lab bill\homework_0508\RightTriangle\obj\Debug\RightTriangle.pdb

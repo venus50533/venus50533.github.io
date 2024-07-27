@@ -1,0 +1,7 @@
+C:\Users\venus\OneDrive\桌面\C#Do homework\LinqHomework_題目\linq3\bin\Debug\linq3.exe.config
+C:\Users\venus\OneDrive\桌面\C#Do homework\LinqHomework_題目\linq3\bin\Debug\linq3.exe
+C:\Users\venus\OneDrive\桌面\C#Do homework\LinqHomework_題目\linq3\bin\Debug\linq3.pdb
+C:\Users\venus\OneDrive\桌面\C#Do homework\LinqHomework_題目\linq3\obj\Debug\linq3.csproj.AssemblyReference.cache
+C:\Users\venus\OneDrive\桌面\C#Do homework\LinqHomework_題目\linq3\obj\Debug\linq3.csproj.CoreCompileInputs.cache
+C:\Users\venus\OneDrive\桌面\C#Do homework\LinqHomework_題目\linq3\obj\Debug\linq3.exe
+C:\Users\venus\OneDrive\桌面\C#Do homework\LinqHomework_題目\linq3\obj\Debug\linq3.pdb

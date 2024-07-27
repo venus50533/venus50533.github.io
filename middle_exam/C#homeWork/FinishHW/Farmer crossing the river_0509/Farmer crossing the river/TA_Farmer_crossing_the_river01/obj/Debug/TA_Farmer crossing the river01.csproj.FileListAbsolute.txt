@@ -1,0 +1,10 @@
+C:\Users\venus\OneDrive\桌面\C#Do homework\Farmer crossing the river_0509\Farmer crossing the river\TA_Farmer_crossing_the_river01\obj\Debug\TA_Farmer crossing the river01.csproj.AssemblyReference.cache
+C:\Users\venus\OneDrive\桌面\C#Do homework\Farmer crossing the river_0509\Farmer crossing the river\TA_Farmer_crossing_the_river01\obj\Debug\TA_Farmer_crossing_the_river01.Properties.Resources.resources
+C:\Users\venus\OneDrive\桌面\C#Do homework\Farmer crossing the river_0509\Farmer crossing the river\TA_Farmer_crossing_the_river01\obj\Debug\TA_Farmer crossing the river01.csproj.GenerateResource.cache
+C:\Users\venus\OneDrive\桌面\C#Do homework\Farmer crossing the river_0509\Farmer crossing the river\TA_Farmer_crossing_the_river01\obj\Debug\TA_Farmer crossing the river01.csproj.CoreCompileInputs.cache
+C:\Users\venus\OneDrive\桌面\C#Do homework\Farmer crossing the river_0509\Farmer crossing the river\TA_Farmer_crossing_the_river01\bin\Debug\TA_Farmer_crossing_the_river01.exe.config
+C:\Users\venus\OneDrive\桌面\C#Do homework\Farmer crossing the river_0509\Farmer crossing the river\TA_Farmer_crossing_the_river01\bin\Debug\TA_Farmer_crossing_the_river01.exe
+C:\Users\venus\OneDrive\桌面\C#Do homework\Farmer crossing the river_0509\Farmer crossing the river\TA_Farmer_crossing_the_river01\bin\Debug\TA_Farmer_crossing_the_river01.pdb
+C:\Users\venus\OneDrive\桌面\C#Do homework\Farmer crossing the river_0509\Farmer crossing the river\TA_Farmer_crossing_the_river01\obj\Debug\TA_Farmer_crossing_the_river01.exe
+C:\Users\venus\OneDrive\桌面\C#Do homework\Farmer crossing the river_0509\Farmer crossing the river\TA_Farmer_crossing_the_river01\obj\Debug\TA_Farmer_crossing_the_river01.pdb
+C:\Users\venus\OneDrive\桌面\C#Do homework\Farmer crossing the river_0509\Farmer crossing the river\TA_Farmer_crossing_the_river01\obj\Debug\TA_Farmer_crossing_the_river01.TAForm1.resources

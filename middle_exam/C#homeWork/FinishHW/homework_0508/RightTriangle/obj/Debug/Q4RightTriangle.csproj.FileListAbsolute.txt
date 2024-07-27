@@ -1,0 +1,7 @@
+C:\Users\venus\OneDrive\桌面\C#Do homework\homework_0508\RightTriangle\bin\Debug\RightTriangle.exe.config
+C:\Users\venus\OneDrive\桌面\C#Do homework\homework_0508\RightTriangle\bin\Debug\RightTriangle.exe
+C:\Users\venus\OneDrive\桌面\C#Do homework\homework_0508\RightTriangle\bin\Debug\RightTriangle.pdb
+C:\Users\venus\OneDrive\桌面\C#Do homework\homework_0508\RightTriangle\obj\Debug\Q4RightTriangle.csproj.AssemblyReference.cache
+C:\Users\venus\OneDrive\桌面\C#Do homework\homework_0508\RightTriangle\obj\Debug\Q4RightTriangle.csproj.CoreCompileInputs.cache
+C:\Users\venus\OneDrive\桌面\C#Do homework\homework_0508\RightTriangle\obj\Debug\RightTriangle.exe
+C:\Users\venus\OneDrive\桌面\C#Do homework\homework_0508\RightTriangle\obj\Debug\RightTriangle.pdb

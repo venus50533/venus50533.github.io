@@ -1,0 +1,7 @@
+C:\Users\venus\OneDrive\桌面\Hackathon\Q6\bin\Debug\Q6.exe.config
+C:\Users\venus\OneDrive\桌面\Hackathon\Q6\bin\Debug\Q6.exe
+C:\Users\venus\OneDrive\桌面\Hackathon\Q6\bin\Debug\Q6.pdb
+C:\Users\venus\OneDrive\桌面\Hackathon\Q6\obj\Debug\Q6.csproj.AssemblyReference.cache
+C:\Users\venus\OneDrive\桌面\Hackathon\Q6\obj\Debug\Q6.csproj.CoreCompileInputs.cache
+C:\Users\venus\OneDrive\桌面\Hackathon\Q6\obj\Debug\Q6.exe
+C:\Users\venus\OneDrive\桌面\Hackathon\Q6\obj\Debug\Q6.pdb
