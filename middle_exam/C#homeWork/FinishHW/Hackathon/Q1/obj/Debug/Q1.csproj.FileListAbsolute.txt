@@ -1,7 +1,0 @@
-C:\Users\venus\OneDrive\桌面\Hackathon\Q1\bin\Debug\Q1.exe.config
-C:\Users\venus\OneDrive\桌面\Hackathon\Q1\bin\Debug\Q1.exe
-C:\Users\venus\OneDrive\桌面\Hackathon\Q1\bin\Debug\Q1.pdb
-C:\Users\venus\OneDrive\桌面\Hackathon\Q1\obj\Debug\Q1.csproj.AssemblyReference.cache
-C:\Users\venus\OneDrive\桌面\Hackathon\Q1\obj\Debug\Q1.csproj.CoreCompileInputs.cache
-C:\Users\venus\OneDrive\桌面\Hackathon\Q1\obj\Debug\Q1.exe
-C:\Users\venus\OneDrive\桌面\Hackathon\Q1\obj\Debug\Q1.pdb

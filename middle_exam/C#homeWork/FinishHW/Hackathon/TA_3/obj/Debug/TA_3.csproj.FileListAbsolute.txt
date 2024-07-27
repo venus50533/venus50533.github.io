@@ -1,7 +1,0 @@
-C:\Users\venus\OneDrive\桌面\Hackathon\TA_3\bin\Debug\TA_3.exe.config
-C:\Users\venus\OneDrive\桌面\Hackathon\TA_3\bin\Debug\TA_3.exe
-C:\Users\venus\OneDrive\桌面\Hackathon\TA_3\bin\Debug\TA_3.pdb
-C:\Users\venus\OneDrive\桌面\Hackathon\TA_3\obj\Debug\TA_3.csproj.AssemblyReference.cache
-C:\Users\venus\OneDrive\桌面\Hackathon\TA_3\obj\Debug\TA_3.csproj.CoreCompileInputs.cache
-C:\Users\venus\OneDrive\桌面\Hackathon\TA_3\obj\Debug\TA_3.exe
-C:\Users\venus\OneDrive\桌面\Hackathon\TA_3\obj\Debug\TA_3.pdb

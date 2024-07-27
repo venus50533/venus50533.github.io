@@ -1,7 +1,0 @@
-C:\Users\venus\OneDrive\桌面\homework_0508\NumberJudgment02\bin\Debug\NumberJudgment02.exe.config
-C:\Users\venus\OneDrive\桌面\homework_0508\NumberJudgment02\bin\Debug\NumberJudgment02.exe
-C:\Users\venus\OneDrive\桌面\homework_0508\NumberJudgment02\bin\Debug\NumberJudgment02.pdb
-C:\Users\venus\OneDrive\桌面\homework_0508\NumberJudgment02\obj\Debug\Q2NumberJudgment02.csproj.AssemblyReference.cache
-C:\Users\venus\OneDrive\桌面\homework_0508\NumberJudgment02\obj\Debug\Q2NumberJudgment02.csproj.CoreCompileInputs.cache
-C:\Users\venus\OneDrive\桌面\homework_0508\NumberJudgment02\obj\Debug\NumberJudgment02.exe
-C:\Users\venus\OneDrive\桌面\homework_0508\NumberJudgment02\obj\Debug\NumberJudgment02.pdb

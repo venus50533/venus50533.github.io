@@ -1,7 +1,0 @@
-C:\Users\venus\OneDrive\桌面\Hackathon\Q3\bin\Debug\Q3.exe.config
-C:\Users\venus\OneDrive\桌面\Hackathon\Q3\bin\Debug\Q3.exe
-C:\Users\venus\OneDrive\桌面\Hackathon\Q3\bin\Debug\Q3.pdb
-C:\Users\venus\OneDrive\桌面\Hackathon\Q3\obj\Debug\Q3.csproj.AssemblyReference.cache
-C:\Users\venus\OneDrive\桌面\Hackathon\Q3\obj\Debug\Q3.csproj.CoreCompileInputs.cache
-C:\Users\venus\OneDrive\桌面\Hackathon\Q3\obj\Debug\Q3.exe
-C:\Users\venus\OneDrive\桌面\Hackathon\Q3\obj\Debug\Q3.pdb

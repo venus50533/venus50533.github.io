@@ -1,7 +1,0 @@
-C:\Users\venus\OneDrive\桌面\homework_0508\ReverseArray02_sort\bin\Debug\ReverseArray02_sort.exe.config
-C:\Users\venus\OneDrive\桌面\homework_0508\ReverseArray02_sort\bin\Debug\ReverseArray02_sort.exe
-C:\Users\venus\OneDrive\桌面\homework_0508\ReverseArray02_sort\bin\Debug\ReverseArray02_sort.pdb
-C:\Users\venus\OneDrive\桌面\homework_0508\ReverseArray02_sort\obj\Debug\Q3_1ReverseArray02_sort.csproj.AssemblyReference.cache
-C:\Users\venus\OneDrive\桌面\homework_0508\ReverseArray02_sort\obj\Debug\Q3_1ReverseArray02_sort.csproj.CoreCompileInputs.cache
-C:\Users\venus\OneDrive\桌面\homework_0508\ReverseArray02_sort\obj\Debug\ReverseArray02_sort.exe
-C:\Users\venus\OneDrive\桌面\homework_0508\ReverseArray02_sort\obj\Debug\ReverseArray02_sort.pdb

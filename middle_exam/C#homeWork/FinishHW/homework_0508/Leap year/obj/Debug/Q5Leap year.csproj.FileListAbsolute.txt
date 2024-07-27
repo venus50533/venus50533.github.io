@@ -1,7 +1,0 @@
-C:\Users\venus\OneDrive\桌面\homework_0508\Leap year\bin\Debug\Leap year.exe.config
-C:\Users\venus\OneDrive\桌面\homework_0508\Leap year\bin\Debug\Leap year.exe
-C:\Users\venus\OneDrive\桌面\homework_0508\Leap year\bin\Debug\Leap year.pdb
-C:\Users\venus\OneDrive\桌面\homework_0508\Leap year\obj\Debug\Q5Leap year.csproj.AssemblyReference.cache
-C:\Users\venus\OneDrive\桌面\homework_0508\Leap year\obj\Debug\Q5Leap year.csproj.CoreCompileInputs.cache
-C:\Users\venus\OneDrive\桌面\homework_0508\Leap year\obj\Debug\Leap year.exe
-C:\Users\venus\OneDrive\桌面\homework_0508\Leap year\obj\Debug\Leap year.pdb

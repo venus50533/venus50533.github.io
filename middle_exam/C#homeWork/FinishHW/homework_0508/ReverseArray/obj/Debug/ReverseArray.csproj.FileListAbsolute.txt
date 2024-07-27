@@ -1,7 +1,0 @@
-C:\Users\venus\source\repos\Lab bill\homework_0508\ReverseArray\bin\Debug\ReverseArray.exe.config
-C:\Users\venus\source\repos\Lab bill\homework_0508\ReverseArray\bin\Debug\ReverseArray.exe
-C:\Users\venus\source\repos\Lab bill\homework_0508\ReverseArray\bin\Debug\ReverseArray.pdb
-C:\Users\venus\source\repos\Lab bill\homework_0508\ReverseArray\obj\Debug\ReverseArray.csproj.AssemblyReference.cache
-C:\Users\venus\source\repos\Lab bill\homework_0508\ReverseArray\obj\Debug\ReverseArray.csproj.CoreCompileInputs.cache
-C:\Users\venus\source\repos\Lab bill\homework_0508\ReverseArray\obj\Debug\ReverseArray.exe
-C:\Users\venus\source\repos\Lab bill\homework_0508\ReverseArray\obj\Debug\ReverseArray.pdb
