@@ -284,7 +284,10 @@ window.addEventListener("load", () => {
   proCarousel.classList.remove("d-none");
   pBtn.classList.add("d-none");
   changeColorSelector();
-  bannerDisplay();
+  selectedSize="";
+  selectedName='';
+  bannerInfo.textContent=""
+  
 });
 
 classicPage.addEventListener("click", (e) => {
@@ -296,11 +299,13 @@ classicPage.addEventListener("click", (e) => {
   proCarousel.classList.add("d-none");
   bImg.src = "./img/classic/iphone-15-blue-select-202309_AV2.jpg";
   selectedColor = " ";
+  btn128.classList.remove("d-none")
 });
 proPage.addEventListener("click", (e) => {
   changeTitle(e.target.getAttribute("value"));
   pagesDecided();
   changeColorSelector();
+  btn128.classList.remove("d-none")
   btn1Tb.classList.remove("d-none");
   proCarousel.classList.remove("d-none");
   classicCarousel.classList.add("d-none");
@@ -318,19 +323,17 @@ function pagesDecided() {
 }
 
 proBtn.addEventListener("click", (e) => {
+  selectedSize=''
   changeTitle(e.currentTarget.value);
-  console.log(e.currentTarget.value);
-
   if (selectedName === proName || selectedName === maxName) {
     btn128.classList.remove("d-none");
   }
   changeCapacitybtnPrice();
 });
 maxBtn.addEventListener("click", (e) => {
-  console.log(e.currentTarget.value);
-
+  selectedSize=''
   changeTitle(e.currentTarget.value);
-  if (selectedPage === proName || selectedName === maxName) {
+  if (selectedName === proName || selectedName === maxName) {
     btn128.classList.add("d-none");
   }
   changeCapacitybtnPrice();
